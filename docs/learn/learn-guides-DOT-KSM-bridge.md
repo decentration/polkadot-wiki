@@ -25,14 +25,14 @@ to ensure that your account on Polkadot Asset Hub has enough DOT to cover the XC
 the bridge fee (which is around 2 DOT). The next step is to craft an XCM message to be sent from
 Polkadot Asset Hub.
 
-[BagPipes (formerly called xcmsend)](https://xcmsend.com/#/builder) is an opensource application
+[Bagpipes (formerly called xcmsend)](https://xcmsend.com/#/builder) is an opensource application
 that lets you create workflows in a drag and drop style interface in order to build execution flows
 of cross chain assets transfers using XCM. Check
 [Bagpipes docs](https://xcmsend.github.io/workflows/dotksm.html) for more information on how to
-create workflows for crafting XCM transfers. The snapshot below shows a workflow on BagPipes that is
+create workflows for crafting XCM transfers. The snapshot below shows a workflow on Bagpipes that is
 designed to send 3 DOT from an account Polkadot Asset Hub to Kusama Asset Hub.
 
-![BagPipes Snapshot DOT Transfer](../assets/bridge-hub/PAH-to-KAH-DOT-transfer.png)
+![Bagpipes Snapshot DOT Transfer](../assets/bridge-hub/PAH-to-KAH-DOT-transfer.png)
 
 This workflow crafts an XCM transfer as shown below.
 
